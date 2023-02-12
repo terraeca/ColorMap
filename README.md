@@ -12,28 +12,36 @@ green, and blue. We require you to break each colour component into 32 steps —
 16, 24 .. 256 — When combined, you will have 32,768 discrete colours to
 utilise.
 
-## Installation
+## Run Locally
 
-Use the package manager [npm](https://docs.npmjs.com/cli/v8/commands/npm-install) to install the necessary libraries contained on package.json.
+Clone the project
 
-On the root of the project, run the following command
 ```bash
-npm install
+  git clone https://github.com/terraeca/ColorMap
 ```
 
-## Deployment
-
-To deploy this project run
+Go to the project directory
 
 ```bash
-npm run dev
+  cd ColorMap
+```
+
+Use the package manager [npm](https://docs.npmjs.com/cli/v8/commands/npm-install) to install the necessary dependencies
+
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run dev
 ```
 
 By default the application will run on localhost on port **5173**
 
 [Open Application](http://localhost:5173/)
-
-
 
 ## Authors
 
