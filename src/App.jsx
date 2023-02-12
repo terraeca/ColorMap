@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <div>
-        <h1>Education Horizon Coding Challenge</h1>
+        <h2>Education Horizon Coding Challenge</h2>
         <a target="_blank">
           <img src="/vite.svg" className="logo" alt="Vite logo" />
         </a>
@@ -25,7 +25,7 @@ function App() {
       <button onClick={() => setReverse(!reverse)}> Reverse Colors </button>
       <div className="card">
         {/* Load the Canvas Component */}
-        <MyCanvas reverse={reverse} width={1024} height={1024} />
+        <MyCanvas reverse={reverse} width={512} height={512} />
       </div>
       <p className="read-the-docs">
         Designed by @Gabriel Terra
