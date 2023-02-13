@@ -1,4 +1,4 @@
-# Coding Challenge Education Horizon
+# Coding Challenge Education Horizons
 
 
 React + Vite was used to complete this project. The application will perform rectangular motion drawing, starting from the centre filling all available space on the canvas with one of every colour, with an option to reverse the collour array. 

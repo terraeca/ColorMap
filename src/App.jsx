@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <div>
-        <h2>Education Horizon Coding Challenge</h2>
+        <h2>Education Horizons Coding Challenge</h2>
         <a target="_blank">
           <img src="/vite.svg" className="logo" alt="Vite logo" />
         </a>
